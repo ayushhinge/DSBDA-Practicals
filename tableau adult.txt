@@ -1,0 +1,54 @@
+adult dataset
+
+1D 
+age drag into rows
+Race drag into color
+
+2D 
+age drag into rows
+occupation drag into column
+income drag into color
+race drag into label
+
+3D
+occupation and maritalstatus drag into column
+age drag into rows
+race drag into color
+
+temporary
+age drag into rows
+hours per week drag into columns
+gender drag into color
+change to area chart in show me
+
+Multidimensional
+education drop into column
+occupation drag into rows
+capital gain drag into color
+gender drag into shape
+hours per week drag into size
+right click age add to filter
+
+Tree
+age drag into rows
+occupation drag into column
+age drag into color
+age drag into size
+occupation drag into label
+income drag into label
+change to treemap in show me
+
+Network
+Line X drag into column
+Line Y drag into rows
+Circle Y drag into rows
+change line X,Y into dimensions and Circle Y into dual axis with side down arrow 
+change automatic to line 
+In Line Y:
+measure names drag into color
+relationship1 drag into detail
+In Circle Y:
+node drag into color
+relationship drag into detail
+increase Size
+node drag into label

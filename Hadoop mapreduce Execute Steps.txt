@@ -1,0 +1,26 @@
+
+file- new- create- java project- name it Workshop
+now right click workshop and create a package Workshop
+now right click workshop and create a class Workshop
+
+link Hadoop
+right click workshop and click build path and click add external archieves then click on file system - click on usr - click on lib - then click on hadoopcommon2.6.0 5.4.2.jar
+now again in lib click Hadoop mapreduce and then click hadoopcore2.6.0 mr1.jar
+
+also change name as program name wherever required
+
+now click on file-export-java-jarfile
+
+
+run Hadoop files
+open terminal
+pwd
+hadoop fs -put Desktop/windows/input.txt work.txt
+
+hadoop fs -ls
+
+Now run program 
+hadoop jar Wordcount.jar Wordcount.Wordcount work.txt pccoer
+
+now check 
+Hadoop fs -cat pccoer/part-r-00000
